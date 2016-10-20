@@ -6,5 +6,7 @@ $.backstretch('https://raw.githubusercontent.com/LTR1/nameplate/gh-pages/img/bg.
 $('.grid').masonry({
     // options
     itemSelector: '.grid-item',
-    columnWidth: 350
+    columnWidth: 0,
+    gutter: 10,
+    transitionDuration: '.5s'
 });
