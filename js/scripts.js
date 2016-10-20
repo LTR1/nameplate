@@ -1,7 +1,7 @@
 // Intialize Lettering JS
 $('h1').lettering();
 // Make Backstretch Go!!
-$.backstretch('/img/bg.jpeg');
+$.backstretch('https://raw.githubusercontent.com/LTR1/nameplate/gh-pages/img/bg.jpeg');
 // Activate Masonry
 $('.grid').masonry({
     // options
