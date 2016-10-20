@@ -17,31 +17,33 @@
     margin-top: 10%;
 }
 
-h1.span1,
+.char1,
 {
-    opacity: .2;
-    transition: opacity .5s linear;
+    transform: rotateX(45deg);
+    transition: 1s transform;
 }
 
-h1.span1:hover,
+.char1:hover,
 {
-    opacity: 1;
+    transform: rotateX(0deg);
 }
 
-img {
-    width: 100px;
-    margin: 5px auto;
+img.selfie {
+    width: 100%;
 }
 
 h1 {
     font-family: 'Oswald', sans-serif;
     color: white;
+    font-size: 1.5em;
 }
 
 h3 {
     font-family: 'Oswald', sans-serif;
     color: white;
     opacity: 1;
+    display: inline-block;
+    padding-right: 100%;
 }
 
 span {
@@ -51,7 +53,32 @@ span {
     color: white;
 }
 
+article {
+    font-size: 1em;
+    font-family: 'Oswald', sans-serif;
+    margin: 10px auto;
+    color: white;
+}
+
 .carousel-cell-image.flickity-lazyloaded,
 .carousel-cell-image.flickity-lazyerror {
     opacity: 1;
+}
+
+.social {
+    margin: 5px auto;
+    width: 150px;
+    padding-right: 50px;
+    padding-left: 2%;
+    display: inline-block;
+}
+
+.grid-item {
+    width: 385px;
+    display: inline-block;
+}
+
+.grid-item-width2 {
+    display: inline-block;
+    width: 250px;
 }
